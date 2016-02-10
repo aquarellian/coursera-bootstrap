@@ -106,42 +106,14 @@
         </div>
     </div>
 </div>
-<header class="jumbotron">
 
-    <!-- Main component for a primary marketing message or call to action -->
-
-    <div class="container">
-        <div class="row row-header">
-            <div class="col-xs-12 col-sm-8">
-                <h1>Ristorante con Fusion</h1>
-
-                <p style="padding:40px;"></p>
-
-                <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
-                    lipsmacking creations will tickle your culinary senses!</p>
-            </div>
-            <div class="col-xs-12 col-sm-2">
-                <p style="padding:20px;"></p>
-                <img src="img/logo.png" class="img-responsive">
-            </div>
-            <div class="col-xs-12 col-sm-2">
-                <p style="padding:40px;"></p>
-                <a class="btn btn-block btn-warning" href="#reserve" role="button" type="button" data-toggle="modal"
-                   data-target="#reserveModal">Reserve Table</a>
-                <!--<a type="button" class="btn btn-warning btn-block"-->
-                <!--data-toggle="tooltip" title="Or Call us at +852 12345678"-->
-                <!--data-placement="bottom" href="#reserve">Reserve Table</a>-->
-            </div>
-        </div>
-    </div>
-</header>
 
 <div id="reserveModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Reserve a Table </h4>
+                <h4 class="modal-title">Reserve Table </h4>
             </div>
             <div class="modal-body">
                 <form class="form-horizontal" role="form">
@@ -161,12 +133,12 @@
                         <label class="col-xs-2 control-label">Section</label>
 
                         <div class="btn-group" data-toggle="buttons">
-                            <label class="btn btn-success active" >
+                            <label class="btn btn-success active">
                                 <input type="radio" name="smoking" id="nonsmoking">Non-Smocking
                             </label>
 
                             <label class="btn btn-danger">
-                                <input  type="radio" name="smoking" id="smoking">Smocking
+                                <input type="radio" name="smoking" id="smoking">Smocking
                             </label>
                         </div>
                     </div>
@@ -199,19 +171,44 @@
                         </label>
                     </div>
                 </form>
-                <!--<div class="form-group">-->
-                    <div class="alert alert-warning alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <strong>Warning:</strong> Please <a href="tel:+85212345678" class="alert-link">call</a> us
-                        to reserve for more than six guests.
-                    </div>
-                <!--</div>-->
+                <div class="alert alert-warning alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <strong>Warning:</strong> Please <a href="tel:+85212345678" class="alert-link">call</a> us
+                    to reserve for more than six guests.
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<header class="jumbotron">
+
+    <!-- Main component for a primary marketing message or call to action -->
+
+    <div class="container">
+        <div class="row row-header">
+            <div class="col-xs-12 col-sm-8">
+                <h1>Ristorante con Fusion</h1>
+
+                <p style="padding:40px;"></p>
+
+                <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
+                    lipsmacking creations will tickle your culinary senses!</p>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <p style="padding:20px;"></p>
+                <img src="img/logo.png" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <p style="padding:40px;"></p>
+                <a class="btn btn-block btn-warning" href="#reserve" role="button" type="button" data-toggle="modal"
+                   data-target="#reserveModal">Reserve Table</a>
+            </div>
+        </div>
+    </div>
+</header>
 
 <div class="container">
 
@@ -449,34 +446,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
-<script>
-        $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();
-         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
 
 </body>
 </html>
